@@ -11,6 +11,8 @@
         }
       ],
       "browser_action": {
-        "default_icon": "pepe.png"
+        "default_icon": "pepe.png",
+        "default_popup": "popup.html"
+        
       }
     }
