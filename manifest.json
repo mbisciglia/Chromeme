@@ -1,18 +1,13 @@
 {
-    "manifest_version": 2,
-    "name": "Chromeme Extension",
-    "version": "0.1",
-    "content_scripts": [
-        {
-          "matches": [
-            "<all_urls>"
-          ],
-          "js": ["content.js"]
-        }
-      ],
-      "browser_action": {
-        "default_icon": "pepe.png",
-        "default_popup": "popup.html"
-        
-      }
-    }
+  "manifest_version": 2,
+  "name": "Chromeme Extension",
+  "version": "0.1",
+  "devtools_page": "pages/devtools.html",
+  "browser_action": {
+    "default_icon": "pepe.png",
+    "default_popup": "background.html"
+  },
+  "background": {
+    "page": "background.html"
+  }
+}
